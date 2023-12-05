@@ -1,10 +1,10 @@
-Ferrari
-Aston Martin
-Mclaren
-Mercedes
-Red Bull
-Williams
-Haas
-Alpha Tauri (renombrado Racing Bulls)
-Alfa Romeo 
+Red Bull 
+Mercedes-Amg 
+Ferrari 
+Mclaren 
+Aston Martin 
 Alpine 
+Williams 
+Alpha Tauri 
+Alfa Romeo 
+Haas
