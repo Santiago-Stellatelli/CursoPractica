@@ -3,9 +3,24 @@ h1{
  background-color: #33FFF0;
 }
 
-h2{
+.titulos{
     background-color: #E75959;
     color: white;
     width: 200px;
     text-align: center;
+}
+
+#recuadro{
+    background-color:#3DD325;
+    width: 210px;
+    height: 100px;
+    margin-top: 15px;
+    border: 5px solid black;
+
+}
+
+#recuadro h2{
+    color: blanchedalmond;
+    text-align: center;
+    margin-top: 10px;
 }
