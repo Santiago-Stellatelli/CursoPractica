@@ -1,3 +1,11 @@
 h1{
  text-align: center;
+ background-color: #33FFF0;
+}
+
+h2{
+    background-color: #E75959;
+    color: white;
+    width: 200px;
+    text-align: center;
 }
