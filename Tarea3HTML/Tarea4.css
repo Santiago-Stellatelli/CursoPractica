@@ -77,3 +77,10 @@ h1{
     font-size: 17px;
     font-weight: bolder;
 }
+
+.recuadro{
+    background-color: red;
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
