@@ -64,19 +64,27 @@ h1{
 .caja1{
     background-color: #ff9f15;
     text-align: center;
-    width: 1100px;
-    margin: auto;
+    width: 500px;
     margin-top: 40px;
     border: 5px solid black;
 }
 
-.listasC1{
-    display:inline-block;
-    padding-left: 0px;
+/* DUDA: En las 2 listas (ul y ol) cuando queria usar (text-align: center) el texto si se alineaba al centro del div, pero el problema era por ejemplo los numeros (1,2,3) o los puntitos que representan cada item, esos quedaban a la izquierda, quedando un gran espacio que no queda bien esteticamente¿Como podria acomodarlo?*/
+#lista1{
     text-align: left;
     font-size: 17px;
     font-weight: bolder;
+    padding-left: 220px;
 }
+
+#lista2{
+    text-align: left;
+    font-size: 17px;
+    font-weight: bolder;
+    padding-left: 150px;
+}
+
+
 
 .recuadro{
     background-color: red;
