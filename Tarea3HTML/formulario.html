@@ -1,38 +1,42 @@
 <form action method>
     <title>PREGUNTAS SOBRE TU MASCOTA</title>
-    <p>
-        <label for="NOMBRE">NOMBRE DE TU MASCOTA</label>
-        <input type="text" name="nombre" />
-    </p>
+    <link rel="stylesheet" href="Tarea4formulario.css">
+    <div id="fondo">
+        <div>
+            <p class="titulos">
+                <label for="NOMBRE">NOMBRE DE TU MASCOTA</label>
+                <input type="text" name="nombre" />
+            </p>
+        </div>
+        <p>
+            <label for="apodo">ESCRIBA 1 APODO DE LA MASCOTA</label>
+            <input type="text" name="apodo" />
+        </p>
 
-    <p>
-        <label for="apodo">ESCRIBA 1 APODO DE LA MASCOTA</label>
-        <input type="text" name="apodo" />
-    </p>
+        <p>
+            <label for="Sexo">Sexo</label>
+        </p>
+        <input type="radio" name="Sexo" value="macho">
+        <label>Macho</label>
+        <input type="radio" name="Sexo" value="hembra">
+        <label>Hembra</label>
 
-    <p>
-        <label for="Sexo">Sexo</label>
-    </p>
-    <input type="radio" name="Sexo" value="macho">
-    <label>Macho</label>
-    <input type="radio" name="Sexo" value="hembra">
-    <label>Hembra</label>
+        <p>
+            <label for="edad">EDAD</label>
+            <select name="edad">
+                <option value="0-2 años">0-2 años</option>
+                <option value="2-5 años">2-5 años</option>
+                <option value="5-10 años">5-10 años</option>
+                <option value="Más de 10 años">Más de 10 años</option>
+            </select>
+        </p>
 
-    <p>
-        <label for="edad">EDAD</label>
-        <select name="edad">
-            <option value="0-2 años">0-2 años</option>
-            <option value="2-5 años">2-5 años</option>
-            <option value="5-10 años">5-10 años</option>
-            <option value="Más de 10 años">Más de 10 años</option>
-        </select>
-    </p>
-
-    <p> SUBA UNA IMAGEN DE SU MASCOTA</p>
-    <input type="file" value="Seleccionar archivos"
-        accept="image/png, .jpeg, .jpg">
-    <p>
-        <input type="submit" value="Enviar" />
-        <input type="reset" value="Borrar" />
-    </p>
+        <p> SUBA UNA IMAGEN DE SU MASCOTA</p>
+        <input type="file" value="Seleccionar archivos"
+            accept="image/png, .jpeg, .jpg">
+        <p>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Borrar" />
+        </p>
+    </div>
 </form>
