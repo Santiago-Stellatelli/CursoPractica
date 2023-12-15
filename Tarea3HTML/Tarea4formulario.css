@@ -1,36 +1,36 @@
 /*Hacer esta parte tambien antes de entregar*/
-.titulos{
-    background-color:blueviolet;
+.titulos {
+    background-color: blueviolet;
     color: white;
     width: 500px;
     text-align: center;
-    margin:auto;
+    margin: auto;
     margin-top: 50px;
     border: 5px outset black;
     text-transform: uppercase;
     font-size: 20px;
 }
 
-#fondo{
+#fondo {
     background-color: aquamarine;
 }
 
-.contenido{
+.contenido {
     text-align: left;
     margin-left: 560px;
 }
 
-#tituloEsp{
-    background-color:blueviolet;
+#tituloEsp {
+    background-color: blueviolet;
     color: white;
     width: 500px;
     text-align: center;
-    margin:auto;
+    margin: auto;
     border: 5px outset black;
     font-size: 20px;
 }
 
-.opciones{
+.opciones {
     font-size: 15px;
     font-family: Segoe Print;
     color: red;
@@ -46,14 +46,14 @@
     margin-top: 40px;
 }
 
-#botonEsp{
+#botonEsp {
     color: black;
     font-size: 15px;
 }
 
-#replica{
+#replica {
     width: 50px;
-    background-color:#EFEDED;
+    background-color: #EFEDED;
     margin-left: 580px;
     border: 1px solid gray;
     text-align: center;
