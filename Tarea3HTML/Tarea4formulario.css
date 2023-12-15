@@ -1,10 +1,38 @@
 /*Hacer esta parte tambien antes de entregar*/
 .titulos{
-    background-color: black;
+    background-color:blueviolet;
     color: white;
-
+    width: 500px;
+    text-align: center;
+    margin:auto;
+    margin-top: 50px;
+    border: 5px outset black;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
 #fondo{
     background-color: aquamarine;
 }
+
+.contenido{
+    text-align: left;
+    margin-left: 560px;
+}
+
+#tituloEsp{
+    background-color:blueviolet;
+    color: white;
+    width: 500px;
+    text-align: center;
+    margin:auto;
+    border: 5px outset black;
+    font-size: 20px;
+}
+
+.opciones{
+    font-size: 15px;
+    font-family: Segoe Print;
+    color: red;
+}
+
