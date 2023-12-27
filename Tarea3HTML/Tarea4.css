@@ -127,8 +127,9 @@ h1 {
 }
 
 .recuadro {
-    background-color: red;
+    background-color:#008F00;
     border: 1px solid black;
     padding: 3px;
     text-align: center;
+    border-radius: 4px;
 }
