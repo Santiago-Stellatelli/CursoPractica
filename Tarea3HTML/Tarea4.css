@@ -8,6 +8,8 @@ h1 {
     position: fixed;
     top: 0px;
     width: 100%;
+    font-family: Rubik Doodle Shadow;
+    font-size: 32x;
 }
 
 .titulos {
@@ -74,12 +76,8 @@ h1 {
     width: 400px;
     margin-top: 50px;
     border-radius: 200px 200px 200px 200px;
-    -webkit-border-radius: 200px 200px 200px 200px;
-    -moz-border-radius: 200px 200px 200px 200px;
 
-    box-shadow: 10px -13px 14px 0px rgba(0,0,0,0.74);
--webkit-box-shadow: 10px -13px 14px 0px rgba(0,0,0,0.74);
--moz-box-shadow: 10px -13px 14px 0px rgba(0,0,0,0.74);
+    box-shadow: 10px -13px 14px 0px rgba(0, 0, 0, 0.74);
 }
 
 #caja1 {
@@ -90,12 +88,8 @@ h1 {
     border: 5px solid black;
     margin-left: 0px;
     box-shadow: 45px 4px 67px -42px rgba(255, 2, 2, 1);
-    -webkit-box-shadow: 45px 4px 67px -42px rgba(255, 2, 2, 1);
-    -moz-box-shadow: 45px 4px 67px -42px rgba(255, 2, 2, 1);
 
     border-radius: 0px 200px 200px 10px;
-    -webkit-border-radius: 0px 200px 200px 10px;
-    -moz-border-radius: 0px 200px 200px 10px;
 }
 
 #caja2 {
@@ -105,12 +99,7 @@ h1 {
     margin-top: -150px;
     border: 5px solid black;
     box-shadow: 45px 4px 67px -42px rgba(255, 2, 2, 1);
-    -webkit-box-shadow: 45px 4px 67px -42px rgba(255, 2, 2, 1);
-    -moz-box-shadow: 45px 4px 67px -42px rgba(255, 2, 2, 1);
-
     border-radius: 0px 200px 200px 10px;
-    -webkit-border-radius: 0px 200px 200px 10px;
-    -moz-border-radius: 0px 200px 200px 10px;
 }
 
 #lista1 {
