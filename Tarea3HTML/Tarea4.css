@@ -42,13 +42,16 @@ h1 {
 #cajaEsp {
     text-align: center;
     margin-top: 50px;
-    background-color: aquamarine;
     border: 5px outset black;
     padding-bottom: 30px;
     box-shadow: 30px -33px 10px -24px rgba(0, 0, 0, 1);
     -webkit-box-shadow: 30px -33px 10px -24px rgba(0, 0, 0, 1);
     -moz-box-shadow: 30px -33px 10px -24px rgba(0, 0, 0, 1);
     align-items: flex-start;
+    background: #7fffd4;
+    background: linear-gradient(160deg, #7fffd4 0%, #7a27b4 80%);
+    background: -webkit-linear-gradient(160deg, #7fffd4 0%, #7a27b4 80%);
+    background: -moz-linear-gradient(160deg, #7fffd4 0%, #7a27b4 80%);
 }
 
 #cajaEsp p {
@@ -61,7 +64,7 @@ h1 {
     font-style: italic;
     color: white;
     font-size: 40px;
-    text-shadow: -1px -7px 3px rgba(130,0,93,0.79);
+    text-shadow: -1px -7px 3px rgba(130, 0, 93, 0.79);
 }
 
 #cajaEsp h3 {
@@ -84,25 +87,30 @@ h1 {
 }
 
 #caja1 {
-    background-color: #ff9f15;
     text-align: center;
     width: 400px;
     margin-top: -350px;
     border: 5px solid black;
     margin-left: 0px;
     box-shadow: 45px 4px 67px -42px rgba(255, 2, 2, 1);
-
     border-radius: 0px 200px 200px 10px;
+    background: #5972dc;
+    background: linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
+    background: -webkit-linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
+    background: -moz-linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
 }
 
 #caja2 {
-    background-color: #ff9f15;
     text-align: center;
     width: 400px;
     margin-top: -150px;
     border: 5px solid black;
     box-shadow: 45px 4px 67px -42px rgba(255, 2, 2, 1);
     border-radius: 0px 200px 200px 10px;
+    background: #5972dc;
+    background: linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
+    background: -webkit-linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
+    background: -moz-linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
 }
 
 #lista1 {
@@ -127,9 +135,16 @@ h1 {
 }
 
 .recuadro {
-    background-color:#008F00;
+    background-color: #008F00;
     border: 1px solid black;
     padding: 3px;
     text-align: center;
     border-radius: 4px;
+}
+
+body {
+    background: #000000;
+    background: linear-gradient(127deg,#000000 0%, #2160cb 80%);
+    background: -webkit-linear-gradient(127deg,#000000 0%, #2160cb 80%);
+    background: -moz-linear-gradient(127deg,#000000 0%, #2160cb 80%);
 }
