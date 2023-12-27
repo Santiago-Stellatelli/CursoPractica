@@ -57,14 +57,17 @@ h1 {
 }
 
 #tituloesp {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Dancing Script', cursive;
     font-style: italic;
     color: white;
     font-size: 40px;
+    text-shadow: -1px -7px 3px rgba(130,0,93,0.79);
 }
 
 #cajaEsp h3 {
     text-transform: uppercase;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: bolder;
 }
 
 .destacar {
