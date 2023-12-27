@@ -57,6 +57,7 @@ h1 {
 #cajaEsp p {
     text-align: left;
     padding-left: 6px;
+    color: white;
 }
 
 #tituloesp {
@@ -140,6 +141,7 @@ h1 {
     padding: 3px;
     text-align: center;
     border-radius: 4px;
+    color: white;
 }
 
 body {
@@ -147,4 +149,12 @@ body {
     background: linear-gradient(127deg,#000000 0%, #2160cb 80%);
     background: -webkit-linear-gradient(127deg,#000000 0%, #2160cb 80%);
     background: -moz-linear-gradient(127deg,#000000 0%, #2160cb 80%);
+}
+
+#irform{
+    color: white;
+}
+
+footer{
+    color: white;
 }
