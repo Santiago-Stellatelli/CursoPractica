@@ -1,6 +1,5 @@
 /*Hacer esta parte tambien antes de entregar*/
 .titulos {
-    background-color: blueviolet;
     color: white;
     width: 500px;
     text-align: center;
@@ -9,6 +8,12 @@
     border: 5px outset black;
     text-transform: uppercase;
     font-size: 20px;
+    border-radius: 53px 53px 53px 53px;
+    background: #fc00ff;
+    background: linear-gradient(141deg, #fc00ff 0%, #00acff 80%);
+    background: -webkit-linear-gradient(141deg, #fc00ff 0%, #00acff 80%);
+    background: -moz-linear-gradient(141deg, #fc00ff 0%, #00acff 80%);
+
 }
 
 #fondo {
@@ -16,6 +21,7 @@
     background: linear-gradient(127deg, #000000 0%, #2160cb 80%);
     background: -webkit-linear-gradient(127deg, #000000 0%, #2160cb 80%);
     background: -moz-linear-gradient(127deg, #000000 0%, #2160cb 80%);
+    margin-top: 0px;
 }
 
 .contenido {
@@ -27,10 +33,15 @@
     background-color: blueviolet;
     color: white;
     width: 500px;
-    text-align: center;
     margin: auto;
+    text-align: center;
     border: 5px outset black;
     font-size: 20px;
+    border-radius: 53px 53px 53px 53px;
+    background: #fc00ff;
+    background: linear-gradient(141deg, #fc00ff 0%, #00acff 80%);
+    background: -webkit-linear-gradient(141deg, #fc00ff 0%, #00acff 80%);
+    background: -moz-linear-gradient(141deg, #fc00ff 0%, #00acff 80%); 
 }
 
 .opciones {
@@ -60,4 +71,20 @@
     margin-left: 580px;
     border: 1px solid gray;
     text-align: center;
+}
+
+h1{
+    background: #00ffa5;
+    background: radial-gradient(circle farthest-corner at center center, #00ffa5 0%, #00f8ff 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #00ffa5 0%, #00f8ff 80%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #00ffa5 0%, #00f8ff 80%);
+    text-align: center;
+    position: fixed;
+    width: 600px;
+    height: 36px;
+    left: 50%;
+    margin-top: 0px;
+    border: dashed 3px black;
+    margin-left: -300px;
+
 }

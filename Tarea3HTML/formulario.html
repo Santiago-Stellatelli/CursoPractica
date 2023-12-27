@@ -1,26 +1,30 @@
 <form action method>
     <title>PREGUNTAS SOBRE TU MASCOTA</title>
     <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Tarea4formulario.css">
     <div id="fondo">
+        <h1>¡CONTAME SOBRE TU MASCOTA!</h1>
         <div id="tituloEsp">
             <p>
-                <label for="NOMBRE">NOMBRE DE TU MASCOTA</label>
+                <label for="NOMBRE"><i
+                        class="fa-solid fa-person-circle-exclamation"></i> <i
+                        class="fa-solid fa-paw"></i> NOMBRE DE TU MASCOTA</label>
                 <input type="text" name="nombre" />
             </p>
         </div>
         <div class="titulos">
             <p>
-                <label for="apodo">ESCRIBA 1 APODO DE LA MASCOTA</label>
+                <label for="apodo"><i class="fa-solid fa-square-pen"></i>
+                    ESCRIBA 1 APODO DE LA MASCOTA</label>
                 <input type="text" name="apodo" />
             </p>
         </div>
         <div class="titulos">
             <p>
-                <label for="Sexo">Sexo</label>
+                <label for="Sexo"><i class="fa-solid fa-sliders"></i> Sexo</label>
             </p>
             <input type="radio" name="Sexo" value="macho">
             <label class="opciones">Macho</label>
@@ -29,7 +33,7 @@
         </div>
         <div class="titulos">
             <p>
-                <label for="edad">EDAD</label>
+                <label for="edad"><i class="fa-solid fa-list"></i> EDAD</label>
                 <select class="opciones" name="edad">
                     <option value="0-2 años">0-2 años</option>
                     <option value="2-5 años">2-5 años</option>
@@ -39,7 +43,7 @@
             </p>
         </div>
         <div class="titulos">
-            <p> SUBA UNA IMAGEN DE SU MASCOTA</p>
+            <p>SUBA UNA IMAGEN DE SU MASCOTA <i class="fa-solid fa-upload"></i></p>
         </div>
         <div id="subirimg">
             <input type="file" value="Seleccionar archivos"
