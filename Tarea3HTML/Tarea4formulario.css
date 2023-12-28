@@ -102,3 +102,52 @@ body {
     margin-top: 20px;
     font-family: 'Permanent Marker', cursive;
 }
+
+#momentos{
+    position: fixed;
+    top: 10px;
+    left: 15px;
+    background: #ff0000;
+    background: #00beff;
+    background: radial-gradient(circle farthest-corner at center center, #00beff 0%, #ff0000 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #00beff 0%, #ff0000 80%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #00beff 0%, #ff0000 80%);
+    padding: 5px;
+    border: 4px outset black;
+    box-shadow: 0px 0px 44px 18px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 44px 18px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 44px 18px rgba(0,0,0,1);
+}
+
+#foto1{
+    position: fixed;
+    width: 250px;
+    top: 80px;
+    left: 15px;
+    border-radius: 30px;
+}
+
+#momentos2{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    background: #ff0000;
+    background: #00beff;
+    background: radial-gradient(circle farthest-corner at center center, #00beff 0%, #ff0000 80%);
+    background: -webkit-radial-gradient(circle farthest-corner at center center, #00beff 0%, #ff0000 80%);
+    background: -moz-radial-gradient(circle farthest-corner at center center, #00beff 0%, #ff0000 80%);
+    padding: 5px;
+    border: 4px outset black;
+    box-shadow: 0px 0px 44px 18px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 0px 44px 18px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 44px 18px rgba(0,0,0,1);
+    
+}
+
+#foto2{
+    position: fixed;
+    width: 250px;
+    top: 80px;
+    right: 15px;
+    border-radius: 30px;
+}
