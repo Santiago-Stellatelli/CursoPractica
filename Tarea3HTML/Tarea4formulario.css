@@ -3,7 +3,7 @@
     color: white;
     width: 500px;
     text-align: center;
-    margin: auto;
+    margin:auto;
     margin-top: 50px;
     border: 5px outset black;
     text-transform: uppercase;
@@ -14,34 +14,12 @@
     background: -webkit-linear-gradient(141deg, #fc00ff 0%, #00acff 80%);
     background: -moz-linear-gradient(141deg, #fc00ff 0%, #00acff 80%);
 
-}
 
-#fondo {
-    background: #000000;
-    background: linear-gradient(127deg, #000000 0%, #2160cb 80%);
-    background: -webkit-linear-gradient(127deg, #000000 0%, #2160cb 80%);
-    background: -moz-linear-gradient(127deg, #000000 0%, #2160cb 80%);
-    margin-top: 0px;
 }
 
 .contenido {
     text-align: left;
     margin-left: 560px;
-}
-
-#tituloEsp {
-    background-color: blueviolet;
-    color: white;
-    width: 500px;
-    margin: auto;
-    text-align: center;
-    border: 5px outset black;
-    font-size: 20px;
-    border-radius: 53px 53px 53px 53px;
-    background: #fc00ff;
-    background: linear-gradient(141deg, #fc00ff 0%, #00acff 80%);
-    background: -webkit-linear-gradient(141deg, #fc00ff 0%, #00acff 80%);
-    background: -moz-linear-gradient(141deg, #fc00ff 0%, #00acff 80%); 
 }
 
 .opciones {
@@ -56,21 +34,26 @@
 }
 
 #botones {
-    margin-left: 550px;
-    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 #botonEsp {
     color: black;
     font-size: 15px;
+    align-self: center;
+    background-color: #EFEDED;
+    border: 1px solid gray; 
+    padding: 2px;
 }
 
 #replica {
-    width: 50px;
-    background-color: #EFEDED;
-    margin-left: 580px;
-    border: 1px solid gray;
-    text-align: center;
+    /* background-color: #EFEDED;
+    border: 1px solid gray;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 h1{
@@ -79,12 +62,34 @@ h1{
     background: -webkit-radial-gradient(circle farthest-corner at center center, #00ffa5 0%, #00f8ff 80%);
     background: -moz-radial-gradient(circle farthest-corner at center center, #00ffa5 0%, #00f8ff 80%);
     text-align: center;
-    position: fixed;
     width: 600px;
     height: 36px;
     left: 50%;
-    margin-top: 0px;
     border: dashed 3px black;
     margin-left: -300px;
+    font-size: 30px;
+    color: #000000;
+    position: fixed;
+    margin-top: 0px;
+    top: 0px;
+
+}
+
+body{
+    background: #000000;
+    background: linear-gradient(127deg, #000000 0%, #2160cb 80%);
+    background: -webkit-linear-gradient(127deg, #000000 0%, #2160cb 80%);
+    background: -moz-linear-gradient(127deg, #000000 0%, #2160cb 80%);
+}
+
+#botonenv{
+    background-color: green;
+    font-size: 20px;
+    
+}
+
+#botonborr{
+    background-color: red;
+    font-size: 20px;
 
 }

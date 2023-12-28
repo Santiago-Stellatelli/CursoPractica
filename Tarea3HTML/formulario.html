@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="Tarea4formulario.css">
     <div id="fondo">
         <h1>¡CONTAME SOBRE TU MASCOTA!</h1>
-        <div id="tituloEsp">
+        <div class="titulos">
             <p>
                 <label for="NOMBRE"><i
                         class="fa-solid fa-person-circle-exclamation"></i> <i
-                        class="fa-solid fa-paw"></i> NOMBRE DE TU MASCOTA</label>
+                        class="fa-solid fa-paw"></i> NOMBRE DE TU
+                    MASCOTA</label>
                 <input type="text" name="nombre" />
             </p>
         </div>
@@ -24,7 +25,8 @@
         </div>
         <div class="titulos">
             <p>
-                <label for="Sexo"><i class="fa-solid fa-sliders"></i> Sexo</label>
+                <label for="Sexo"><i class="fa-solid fa-sliders"></i>
+                    Sexo</label>
             </p>
             <input type="radio" name="Sexo" value="macho">
             <label class="opciones">Macho</label>
@@ -43,15 +45,16 @@
             </p>
         </div>
         <div class="titulos">
-            <p>SUBA UNA IMAGEN DE SU MASCOTA <i class="fa-solid fa-upload"></i></p>
+            <p>SUBA UNA IMAGEN DE SU MASCOTA <i
+                    class="fa-solid fa-upload"></i></p>
         </div>
         <div id="subirimg">
             <input type="file" value="Seleccionar archivos"
                 accept="image/png, .jpeg, .jpg">
         </div>
         <p id="botones">
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Borrar" />
+            <input type="submit" value="Enviar" id="botonenv" />
+            <input type="reset" value="Borrar" id="botonborr" />
             <!--Como no sabia como hacer un boton para que desde el formulario se pueda volver a la pagina inicial, lo intente de replicar-->
             <div id="replica">
                 <a id="botonEsp" href="tarea3.html">Volver</a>
