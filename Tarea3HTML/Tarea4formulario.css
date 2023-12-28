@@ -25,15 +25,11 @@
 .opciones {
     font-size: 15px;
     font-family: Segoe Print;
-    color: red;
+    color: black;
+    font-family: Train one;
 }
 
-#subirimg {
-    margin-left: 500px;
-    margin-top: 20px;
-}
-
-#botones {
+.botones {
     display: flex;
     justify-content: center;
 }
@@ -99,5 +95,10 @@ body {
     font-size: 20px;
     border: 3px outset black;
     border-radius: 6px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#selec{
+    margin-top: 20px;
     font-family: 'Permanent Marker', cursive;
 }
