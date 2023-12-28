@@ -3,7 +3,7 @@
     color: white;
     width: 500px;
     text-align: center;
-    margin:auto;
+    margin: auto;
     margin-top: 50px;
     border: 5px outset black;
     text-transform: uppercase;
@@ -40,23 +40,26 @@
 
 #botonEsp {
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     align-self: center;
-    background-color: #EFEDED;
-    border: 1px solid gray; 
-    padding: 2px;
+    border: 1px solid gray;
+    padding: 3px;
+    background: #00dfff;
+    background: linear-gradient(90deg, #00dfff 0%, #ff00ee 80%);
+    background: -webkit-linear-gradient(90deg, #00dfff 0%, #ff00ee 80%);
+    background: -moz-linear-gradient(90deg, #00dfff 0%, #ff00ee 80%);
+    border: 3px outset black;
+    border-radius: 6px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 #replica {
-    /* background-color: #EFEDED;
-    border: 1px solid gray;  */
     display: flex;
     justify-content: center;
-    align-items: center;
 
 }
 
-h1{
+h1 {
     background: #00ffa5;
     background: radial-gradient(circle farthest-corner at center center, #00ffa5 0%, #00f8ff 80%);
     background: -webkit-radial-gradient(circle farthest-corner at center center, #00ffa5 0%, #00f8ff 80%);
@@ -75,21 +78,26 @@ h1{
 
 }
 
-body{
+body {
     background: #000000;
     background: linear-gradient(127deg, #000000 0%, #2160cb 80%);
     background: -webkit-linear-gradient(127deg, #000000 0%, #2160cb 80%);
     background: -moz-linear-gradient(127deg, #000000 0%, #2160cb 80%);
 }
 
-#botonenv{
+#botonenv {
     background-color: green;
     font-size: 20px;
-    
+    border: 3px outset black;
+    border-radius: 6px;
+    font-family: 'Permanent Marker', cursive;
+
 }
 
-#botonborr{
+#botonborr {
     background-color: red;
     font-size: 20px;
-
+    border: 3px outset black;
+    border-radius: 6px;
+    font-family: 'Permanent Marker', cursive;
 }
