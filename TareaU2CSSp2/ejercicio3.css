@@ -1,0 +1,25 @@
+#contenedor{
+    width: 300px;
+    height:100px;
+    border: 2px solid black;
+    color: white;
+    display: flex;
+}
+
+#rojo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#azul{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#verde{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
