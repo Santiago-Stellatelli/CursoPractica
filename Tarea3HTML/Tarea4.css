@@ -23,7 +23,6 @@ h1 {
     border: 5px inset black;
     border-radius: 8px;
     margin-left: 10px;
-    flex-wrap: nowrap;
     margin-top: 70px;
     background: #9e1cf2;
     background: repeating-radial-gradient(circle farthest-corner at top left, #9e1cf2 0%, #21cbbd 20%);
