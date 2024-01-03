@@ -27,6 +27,10 @@
 
     }
 
+    ul:hover{
+        a{color:darkgreen;}
+    }
+
     a{
         color: black;
         font-weight:bold;
