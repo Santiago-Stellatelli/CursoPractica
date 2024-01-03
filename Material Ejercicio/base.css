@@ -34,11 +34,15 @@ section {
 	background: #F1F2C0;
 	width: 400px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
 }
 aside {
 	background: #CCC59E;
 	width: 400px;
+	text-align: center;
 }
 
 h1{
@@ -50,6 +54,10 @@ h1{
 	flex-direction: row;
 	width: 100%;
 	justify-content: space-between;
-	/* align-items: center; */
 
+}
+
+p{
+	text-align: justify;
+	padding: 2px;
 }
