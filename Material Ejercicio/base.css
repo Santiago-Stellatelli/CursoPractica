@@ -49,14 +49,23 @@ section:hover {
 	box-shadow: 0px 0px 0px 6px rgba(230,83,83,0.75) inset;
 	-webkit-box-shadow: 0px 0px 0px 6px rgba(230,83,83,0.75) inset;
 	-moz-box-shadow: 0px 0px 0px 6px rgba(230,83,83,0.75) inset;
-	font-size: 80%;
+	font-size: 90%;
+	padding: 15px;
+	cursor: pointer;
 }
 
 aside {
 	background: #CCC59E;
 	width: 400px;
 	text-align: center;
+	transition: all 1s ease;
 }
+
+aside:hover{
+	background-color: #C75011;
+	color: white;
+}
+
 
 h1 {
 	text-align: center;
