@@ -17,6 +17,7 @@ h1 {
     text-align: center;
 }
 
+/*----------------------------------------------------------------------------------------*/
 #principal {
     width: 210px;
     height: 100px;
@@ -28,13 +29,36 @@ h1 {
     background: repeating-radial-gradient(circle farthest-corner at top left, #9e1cf2 0%, #21cbbd 20%);
     background: -webkit-repeating-radial-gradient(circle farthest-corner at top left, #9e1cf2 0%, #21cbbd 20%);
     background: -moz-repeating-radial-gradient(circle farthest-corner at top left, #9e1cf2 0%, #21cbbd 20%);
+    transition: all 1s ease;
 }
 
 #principal h2 {
     color: blanchedalmond;
     text-align: center;
     margin-top: 10px;
+    transition: all 0.9s ease;
 }
+
+#principal:hover {
+    width: 250px;
+    height: 140px;
+    box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+
+}
+
+#principal:hover h2 {
+    margin-top: 26px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------*/
 
 /*".moverseparado" es para el recuadro violeta*/
 .moverseparado {
@@ -88,7 +112,7 @@ h1 {
 
     box-shadow: 10px -13px 14px 0px rgba(0, 0, 0, 0.74);
 }
-
+/*----------------------------------------------------------------------------------*/
 #caja1 {
     text-align: center;
     width: 400px;
@@ -101,6 +125,15 @@ h1 {
     background: linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
     background: -webkit-linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
     background: -moz-linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
+    transition: all 1s ease;
+}
+
+#caja1:hover{
+    width: 440px;
+    box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+
 }
 
 #caja2 {
@@ -114,6 +147,15 @@ h1 {
     background: linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
     background: -webkit-linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
     background: -moz-linear-gradient(159deg, #5972dc 0%, #ff0101 80%);
+    transition: all 1s ease;
+}
+
+#caja2:hover{
+    width: 400px;
+    width: 440px;
+    box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
 }
 
 #lista1 {
@@ -160,3 +202,7 @@ body {
 footer {
     color: white;
 }
+
+
+
+/*--------------------Lo que haga a partir de acá son animaciones, transiciones, etc----------*/
