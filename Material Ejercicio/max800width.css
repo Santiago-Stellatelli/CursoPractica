@@ -8,6 +8,16 @@
         font-size: 50px;
         margin-top: 0px;
         width: 500px;
+        margin-left: 0px;
+    }
+
+    h1:hover{
+        animation-name: animtitulo;
+    
+    }
+    
+    @keyframes animtitulo{ 
+        /*Como no sabia como sacar la animacion lo hice agregando una animacion nueva que no haga ningun cambio (para reemplazar la que ya estaba)*/
     }
 
     body{
