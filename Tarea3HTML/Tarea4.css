@@ -15,6 +15,7 @@ h1 {
 .titulos {
     color: white;
     text-align: center;
+    transition: all 1s ease;
 }
 
 /*----------------------------------------------------------------------------------------*/
@@ -45,6 +46,7 @@ h1 {
     box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
     -webkit-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    cursor: pointer;
 
 }
 
@@ -112,7 +114,7 @@ h1 {
 
     box-shadow: 10px -13px 14px 0px rgba(0, 0, 0, 0.74);
 }
-/*----------------------------------------------------------------------------------*/
+/*--------------------------------Recuadro APODOS--------------------------------------------------*/
 #caja1 {
     text-align: center;
     width: 400px;
@@ -129,13 +131,34 @@ h1 {
 }
 
 #caja1:hover{
-    width: 440px;
+    width: 470px;
     box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
     -webkit-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    cursor: pointer;
 
 }
+#caja1:hover .titulos{
+    font-size: 30px;
+}
 
+#caja1:hover ul{
+    font-size: 20px;
+}
+
+li{
+    transition: all 1s ease;
+}
+
+#lista1 {
+    text-align: left;
+    font-size: 17px;
+    font-weight: bolder;
+    padding-left: 170px;
+}
+/*-----------------------------------------------------------------------------*/
+
+/*------------------------------------Recuadro JUGUETES-----------------------------------*/
 #caja2 {
     text-align: center;
     width: 400px;
@@ -151,19 +174,21 @@ h1 {
 }
 
 #caja2:hover{
-    width: 400px;
-    width: 440px;
+    width: 470px;
     box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
     -webkit-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    cursor: pointer;
 }
 
-#lista1 {
-    text-align: left;
-    font-size: 17px;
-    font-weight: bolder;
-    padding-left: 170px;
+#caja2:hover .titulos{
+    font-size: 30px;
 }
+
+#caja2:hover ol{
+    font-size: 20px;
+}
+
 
 #lista2 {
     text-align: left;
