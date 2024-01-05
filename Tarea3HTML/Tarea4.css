@@ -211,6 +211,7 @@ li{
     text-align: center;
     border-radius: 4px;
     color: white;
+    text-decoration: none;
 }
 
 body {
@@ -228,6 +229,20 @@ footer {
     color: white;
 }
 
+
+.recuadro:hover{
+    animation-name: aqui;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+
+}
+
+@keyframes aqui{
+    50% {padding: 5px;
+         font-size: 20px;
+    }
+    100%{padding: 3px;}
+}
 
 
 /*--------------------Lo que haga a partir de acá son animaciones, transiciones, etc----------*/
