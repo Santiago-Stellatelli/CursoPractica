@@ -111,8 +111,17 @@ h1 {
     width: 400px;
     margin-top: 50px;
     border-radius: 200px 200px 200px 200px;
-
     box-shadow: 10px -13px 14px 0px rgba(0, 0, 0, 0.74);
+    transition: all 1s ease;
+}
+
+#fotoplaya:hover{
+    box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 83px 61px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    width: 440px;
+    position: relative;
 }
 /*--------------------------------Recuadro APODOS--------------------------------------------------*/
 #caja1 {
@@ -233,7 +242,7 @@ footer {
 .recuadro:hover{
     animation-name: aqui;
     animation-iteration-count: infinite;
-    animation-duration: 1.5s;
+    animation-duration: 0.7s;
 
 }
 
