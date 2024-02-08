@@ -34,7 +34,7 @@
         document.write(tex2)
 
 
-
+//--------------------------------------------------------------------------------------------------------
         const nums1 = []
 
 
@@ -46,11 +46,13 @@
             let num1 = parseInt(numero1);
             nums1.push(Number(num1))
           }
+        }
 
-
-          }
+        
           document.write(`Los números ingresados son ${nums1} `);
           nums1.sort((a,b)=> a-b)
+
+
 
           let numero1 = 0;
           for(i=0; i<nums1.length; i++){
