@@ -21,7 +21,7 @@
 
           }
         
-        console.log('El numero es ' + nums )
+        console.log(`Los rangos quedaron armados de la siguiente manera, menor a ${nums[0]} metros el primer tramo \n El segundo tramo desde ${nums[0]+1} metros hasta ${nums[1]} \n El tercero desde ${nums[1]+1} hasta ${nums[2]} \n El cuarto tramo desde ${nums[2]+1} hasta ${nums[3]} \n Y el ultimo tramo mayor a ${nums[3]+1}`)
 
         if (distancia <= nums[0]){
             document.write(`Como tu distancia es ${distancia} metros, deberás ir a pie`);
@@ -32,7 +32,7 @@
         } else if(nums[2] < distancia && distancia <= nums[3]){
             document.write(`Como tu distancia es ${distancia} metros, deberas utilizar tu auto`);
         } else {
-            document.write(`Como tu distancia de ${distancia} metros supera los ${dis4} metros, deberás tomar un avión`);
+            document.write(`Como tu distancia de ${distancia} metros supera los ${nums[3]} metros, deberás tomar un avión`);
         }
 
 
