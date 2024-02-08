@@ -15,19 +15,19 @@
         let numero = 0;
         
         for(let i=0; i<nums.length; i++){
-            let num = parseInt(nums[i])
+            let num = (nums[i])
             if(num> numero){
                 numero = num
             } 
         }
 
+        console.log(`De todos estos números ${nums} el mayor es ${numero}`)
+        const tex1 = (`<br> De todos estos números ${nums} el mayor es ${numero} <br>`);
     
         const orden = nums.sort((a , b) => a - b) 
 
-        console.log(`De todos estos números ${nums} el mayor es ${numero}`)
         console.log(`De manera ordenada quedaria de la siguiente manera ` + orden)
 
-        const tex1 = (`<br> De todos estos números ${nums} el mayor es ${numero} <br>`);
         const tex2 = (`De manera ordenada quedaria de la siguiente manera ${orden} <br>` );
 
         document.write(tex1)
@@ -40,13 +40,10 @@
 
         for(let i=0; i<5; i++){
           let numero1 =  prompt('Ingrese el valor '+ [i] )
-          if(numero1 === null || numero1 ===""){
-            break;
-          } else {
-            let num1 = parseInt(numero1);
-            nums1.push(Number(num1))
-          }
-        }
+          let num1 = (numero1);
+            nums1.push(num1)
+          } 
+        
 
         
           document.write(`Los números ingresados son ${nums1} `);
