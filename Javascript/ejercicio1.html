@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Javascript 1</title>
 </head>
 <body>
-    
+    <script>
+        const dis1 = 1000;
+        const dis2 = 10000;
+        const dis3 = 30000;
+        const dis4 = 100000;
+
+        const distancia = prompt('Ingrese un número');
+
+        if (distancia <= dis1){
+            document.write(`Como tu distancia es ${distancia} metros, deberás ir a pie`);
+        } else if (dis1 < distancia && distancia <= dis2){
+            document.write(`Como tu distancia es ${distancia} metros, deberás ir en bicicleta`);
+        } else if (dis2 < distancia && distancia <= dis3){
+            document.write(`Como tu distancia  ${distancia} metros, deberás tomar un colectivo`);
+        } else if(dis3 < distancia && distancia <= dis4){
+            document.write(`Como tu distancia es ${distancia} metros, deberas utilizar tu auto`);
+        } else {
+            document.write(`Como tu distancia de ${distancia} metros supera los ${dis4} metros, deberás tomar un avión`);
+        }
+
+
+
+
+    </script>
 </body>
 </html>
