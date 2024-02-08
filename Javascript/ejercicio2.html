@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascrpt ej2</title>
-</head>
-<body>
-    <script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Javascrpt ej2</title>
+    </head>
+    <body>
+        <script>
         const nums =['11','6','17','4','88','55','40'];
         document.write(`Los números son ${nums} `)
         console.log(`Los nums son ${nums}`)
@@ -35,8 +35,37 @@
 
 
 
+        const nums1 = []
 
+
+        for(let i=0; i<5; i++){
+          let numero1 =  prompt('Ingrese el valor '+ [i] )
+          if(numero1 === null || numero1 ===""){
+            break;
+          } else {
+            let num1 = parseInt(numero1);
+            nums1.push(Number(num1))
+          }
+
+
+          }
+          document.write(`Los números ingresados son ${nums1} `);
+          nums1.sort((a,b)=> a-b)
+
+          let numero1 = 0;
+          for(i=0; i<nums1.length; i++){
+            if(nums1[i]>numero1){
+                numero1 = nums1[i]
+            }
+          }
+
+
+          const tex3 = (`<br> Los números ingresados ordenados quedarian así ${nums1} <br>`)
+          document.write(tex3);
+
+          const tex4 = (`El numero mayor es  ${numero1} `)
+          document.write(tex4);
 
     </script>
-</body>
+    </body>
 </html>
