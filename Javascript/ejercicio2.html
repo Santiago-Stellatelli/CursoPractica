@@ -12,15 +12,26 @@
         console.log(`Los nums son ${nums}`)
 
 
-        let ultimo = 0;
+        let numero = 0;
         
         for(let i=0; i<nums.length; i++){
-            if(nums[i]> ultimo){
-                ultimo = nums[i]
-            }
+            let num = parseInt(nums[i])
+            if(num> numero){
+                numero = num
+            } 
         }
 
-        console.log(`De todos estos números ${nums} el mayor es ${ultimo}`)
+    
+        const orden = nums.sort((a , b) => a - b) 
+
+        console.log(`De todos estos números ${nums} el mayor es ${numero}`)
+        console.log(`De manera ordenada quedaria de la siguiente manera ` + orden)
+
+        const tex1 = (`<br> De todos estos números ${nums} el mayor es ${numero} <br>`);
+        const tex2 = (`De manera ordenada quedaria de la siguiente manera ${orden} <br>` );
+
+        document.write(tex1)
+        document.write(tex2)
 
 
 
