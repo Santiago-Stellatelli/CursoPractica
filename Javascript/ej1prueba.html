@@ -3,30 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript ej1</title>
+    <title>Javascript ej1 prueba</title>
 </head>
 <body>
     <script>
-        const dis1 = 1000;
-        const dis2 = 10000;
-        const dis3 = 30000;
-        const dis4 = 100000;
 
-        const distancia = prompt('Ingrese un número');
+        const distancia = prompt('Ingrese una distancia');
 
-        if (distancia <= dis1){
+        const nums = []
+        // let ult = 0;
+
+
+        for(let i=0; i<5; i++){
+          let numero =  prompt('Ingrese el valor '+ [i] )
+          nums.push(Number(numero));
+          nums.sort((a, b)=> a - b );
+
+
+          }
+        
+        console.log('El numero es ' + nums )
+
+        if (distancia <= nums[0]){
             document.write(`Como tu distancia es ${distancia} metros, deberás ir a pie`);
-        } else if (dis1 < distancia && distancia <= dis2){
+        } else if (nums[0] < distancia && distancia <= nums[1]){
             document.write(`Como tu distancia es ${distancia} metros, deberás ir en bicicleta`);
-        } else if (dis2 < distancia && distancia <= dis3){
+        } else if (nums[1] < distancia && distancia <= nums[2]){
             document.write(`Como tu distancia  ${distancia} metros, deberás tomar un colectivo`);
-        } else if(dis3 < distancia && distancia <= dis4){
+        } else if(nums[2] < distancia && distancia <= nums[3]){
             document.write(`Como tu distancia es ${distancia} metros, deberas utilizar tu auto`);
         } else {
             document.write(`Como tu distancia de ${distancia} metros supera los ${dis4} metros, deberás tomar un avión`);
         }
-
-
 
 
     </script>
