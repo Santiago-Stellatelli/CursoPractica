@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio alumnos</title>
+    </head>
+    <body>
+
+
+        <script>
+        var alumnos = [
+
+{
+
+    nombre: "Juan Gomez",
+            nota: 7,
+
+}, {
+
+  nombre: 'Pedro Rodriguez',
+
+  nota: 4
+
+}, {
+
+  nombre: 'Roxana García',
+
+  nota: 8
+
+}, {
+
+  nombre: 'Luciano Lopez',
+
+  nota: 5
+
+}, {
+
+  nombre: 'Fernanda Gimenez',
+
+  nota: 6
+
+}, {
+
+  nombre: 'Florencia Martinez',
+
+  nota: 10
+
+}, {
+
+  nombre: 'Raul Sanchez',
+
+  nota: 7
+
+}, {
+
+  nombre: 'Sandra Figueroa',
+
+  nota: 8
+
+
+}
+
+];
+
+function mostraralumnos(){
+    for(i=0;i<8;i++){
+        contar = i
+    var newalumn = document.createElement(`p`+1)
+    newalumn.innerText = `${JSON.stringify(alumnos[contar].nombre)} sacó un ${JSON.stringify(alumnos[i].nota)}`;
+    document.body.appendChild(newalumn)
+    console.log(newalumn)
+    newalumn.classList.add('p1')
+    }
+
+}
+
+mostraralumnos();
+
+function aprobados(){
+    let array2 = []
+        let aprobarnota = alumnos.filter(function(alumnos){
+            return alumnos.nota>=7
+        });
+        console.log(aprobarnota)
+
+        for(i = 0; i<5; i++){
+            var soloaprobados = document.createElement(`p`+2)
+            soloaprobados.innerText = `${aprobarnota[i].nombre} ha aprobado`
+            document.body.appendChild(soloaprobados)
+            soloaprobados.classList.add('p2')
+
+        }
+
+}
+
+aprobados();
+
+
+function desaprobados(){
+
+    let desaprobarnota = alumnos.filter(function(alumnos){
+        return alumnos.nota < 7
+    })
+    console.log(desaprobarnota)
+
+    for(i = 0; i<3; i++){
+        var solodesaprobados = document.createElement(`p`+3)
+        solodesaprobados.innerText = `${desaprobarnota[i].nombre} ha desaprobado. Pasa a recuperatorio`
+        document.body.appendChild(solodesaprobados)
+        solodesaprobados.classList.add('p3')
+    }
+
+}
+
+desaprobados();
+
+
+
+    </script>
+
+    <style>
+.p1{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    margin-top: 5px;
+    align-items: center;
+        }
+
+.p2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+    color: white;
+    margin-top: 5px;
+}
+
+.p3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    color: white;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+    </style>
+    </body>
+</html>

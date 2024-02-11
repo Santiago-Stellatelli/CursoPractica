@@ -1,0 +1,67 @@
+<form name="formulario" method>
+    <title>Ejercicio contador</title>
+
+    <label for="ingrese">Ingrese su nombre </label>
+    <br>
+    <textarea name="nombre" id="textarea" cols="30" rows="5"></textarea>
+    <input type="submit" value="Enviar" id="btnenv">
+
+    <script>
+
+        let boton = document.getElementById('btnenv')
+        let textarea = document.getElementById('textarea')
+
+
+
+
+        
+        boton.addEventListener('click', function(){
+            let texto = textarea.value
+
+            let caracteres = contador(texto)
+            alert(`Tu nombre tiene ${caracteres} caracteres`)
+
+        })
+
+
+        
+
+        function contador(texto){
+            return texto.length
+
+        }
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>

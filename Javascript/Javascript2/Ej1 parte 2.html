@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ej1 2da parte javascript</title>
+        <link rel="stylesheet" href="ej1.css">
+    </head>
+    <body>
+        <div id="contenedor">
+            <div id="mayor" style="background-color: white;">
+                <div class="cuadrados" style="background-color: blue;"
+                    onclick="colores()">Cuadrado 1</div>
+                <div class="cuadrados" style="background-color: red;"
+                    onclick="colores2()">Cuadrado 2</div>
+                <div class="cuadrados" style="background-color: green;"
+                    onclick="colores3()">Cuadrado 3</div>
+            </div>
+            <div id="reset" onclick="reset()">Reset</div>
+        </div>
+
+        <script>
+
+
+            let colorprinci = document.body.style.backgroundColor;
+
+        function colores(){
+            let div = document.getElementsByClassName('cuadrados');
+            let contenedor = document.getElementById('contenedor')
+
+            contenedor.style.backgroundColor = 'blue'
+
+            cantclicks = contar();
+
+        }
+
+        function colores2(){
+            let div = document.getElementsByClassName('cuadrados');
+            let contenedor = document.getElementById('contenedor')
+            contenedor.style.backgroundColor = 'red'
+            cantclicks = contar();
+
+        }
+
+        function colores3(){
+            let div = document.getElementsByClassName('cuadrados');
+            let contenedor = document.getElementById('contenedor')
+            contenedor.style.backgroundColor = 'green'
+            cantclicks = contar();
+        }
+
+        function reset(){
+            let contenedor = document.getElementById('contenedor');
+            contenedor.style.backgroundColor = colorprinci
+            alert('Seguro que quieres volver al color original?')
+        }
+
+
+        var contclicks = 0;
+        function contar(){
+            contclicks += 1;
+
+            console.log(`Has cambiado de color ${contclicks} veces`)
+            agregar();
+            remover();
+
+        }
+
+
+
+        function agregar(){
+            var newcont = document.createElement(`p${contclicks}`)
+            newcont.innerText = `Has cambiado de color ${contclicks} veces`
+            document.body.appendChild(newcont)
+            newcont.classList.add('parrafos')
+
+        }
+
+
+        function remover(){
+            let eliminar = document.getElementsByTagName(`p${contclicks-1}`)
+            if(eliminar.length>0){
+                elemento = eliminar[0]
+            }
+            elemento.remove();
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    </body>
+</html>

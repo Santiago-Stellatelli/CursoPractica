@@ -1,4 +1,4 @@
-<form action method>
+<form name="formulario" method>
     <title>PREGUNTAS SOBRE TU MASCOTA</title>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -13,6 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="Tarea4formulario.css">
     <body>
+        <script src="prueba.js"></script>
     <div id="fondo">
         <h1>¡CONTAME SOBRE TU MASCOTA!</h1>
         <div class="titulos">
@@ -21,7 +22,7 @@
                         class="fa-solid fa-person-circle-exclamation"></i> <i
                         class="fa-solid fa-paw"></i> NOMBRE DE TU
                     MASCOTA</label>
-                <input type="text" name="nombre" />
+                <input type="text" name="nombre"  />
             </p>
         </div>
         <div class="titulos">
@@ -61,7 +62,7 @@
                 accept="image/png, .jpeg, .jpg" id="selec">
         </div>
         <p class="botones">
-            <input type="submit" value="Enviar" id="botonenv" />
+            <input type="submit" value="Enviar" id="botonenv" onclick="validar()"/>
             <input type="reset" value="Borrar" id="botonborr" />
             <!--Como no sabia como hacer un boton para que desde el formulario se pueda volver a la pagina inicial, lo intente de replicar-->
             <div id="replica">
