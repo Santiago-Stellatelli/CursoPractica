@@ -44,7 +44,7 @@ app.get('/', function (req, res) {
 })
 
 app.post('/login', function (req, res) {
-  if (req.body.nombre) {
+  if (req.body.nombre && req.body.edad) {
     req.session.nombre = req.body.nombre
     req.session.edad = req.body.edad
 
