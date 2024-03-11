@@ -1,0 +1,32 @@
+<h1>{{h1texto}}</h1>
+
+{{#if conocido}}
+<p>Hola {{nombre}},tu edad es {{edad}} y como {{parrafo}}</p>
+<p>¿Quieres cerrar tu sesión?</p>
+<a href="/salir">Click aquí</a>
+
+{{#if edadmayor18}}
+<style>
+  body{
+    background-color: cyan;
+  }
+</style>
+
+{{/if}}
+
+{{/if}}
+
+
+{{#unless conocido}}
+<form action="/login" method="post">
+<label>Nombre</label>
+<input type="text" name="nombre">
+<br><br>
+<label>Edad</label>
+<input type="number" name="edad">
+<br><br>
+<button>Iniciar sesión</button>
+<p>{{parrafo}}</p>
+
+</form>
+{{/unless}}
